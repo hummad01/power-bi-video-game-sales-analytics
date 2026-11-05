@@ -1,6 +1,6 @@
 # Video Game Sales & Market Performance Analytics
 
-An interactive Power BI business intelligence project analysing historical video game sales, platform and genre performance, publishers, regional sales, and critic scores.
+An interactive Power BI business intelligence project analysing historical video game sales, platform and genre performance, publishers, regional sales and critic scores.
 
 **Author:** Mohammad Hummad Siddiqui  
 **Tools:** Power BI Desktop, Power Query, DAX, Excel  
@@ -9,9 +9,9 @@ An interactive Power BI business intelligence project analysing historical video
 
 ## Business problem
 
-Publishers and platform owners need a clear view of historical performance across platforms, genres, publishers, and regions. This project transforms historical video game sales and ratings data into interactive dashboards to identify market leaders, understand regional differences, and explore factors associated with commercial performance.
+Publishers and platform owners need a clear view of historical performance across platforms, genres, publishers and regions. This project transforms historical video game sales and ratings data into interactive dashboards to identify market leaders, understand regional differences and explore factors associated with commercial performance.
 
-This is descriptive and exploratory analysis. It is not a future-sales forecasting model, and relationships between critic scores and sales should not be interpreted as causal.
+This is descriptive and exploratory analysis. It is not a future-sales forecasting model and relationships between critic scores and sales should not be interpreted as causal.
 
 ## Project objectives
 
@@ -62,20 +62,20 @@ Total Global Sales = SUM(FactGameSales[Global_Sales])
 - KPI cards: Total Global Sales, Total Platforms, Total Publishers, Unique Games
 - Global sales trend
 - Leading platforms and genres
-- Slicers for release year, platform, and genre
+- Slicers for release year, platform and genre
 
 ### 2. Sales & Regional Intelligence
 - Regional sales comparisons
 - Publisher and genre performance
 - Critic score versus global sales scatter chart
-- Slicers for platform, release year, genre, and region
+- Slicers for platform, release year, genre and region
 
 ## Findings reported in the project presentation
 
 - Approximately **8,920.30 million units** in total global sales.
-- Among the five platforms displayed, PS2 ranks first, followed by X360, PS3, Wii, and DS.
-- Among the four genres displayed, Action ranks first, followed by Sports, Shooter, and Role-Playing.
-- Among the five publishers displayed, Nintendo ranks first, followed by Electronic Arts, Activision, Sony Computer Entertainment, and Ubisoft.
+- Among the five platforms displayed, PS2 ranks first, followed by X360, PS3, Wii and DS.
+- Among the four genres displayed, Action ranks first, followed by Sports, Shooter and Role-Playing.
+- Among the five publishers displayed, Nintendo ranks first, followed by Electronic Arts, Activision, Sony Computer Entertainment and Ubisoft.
 - Sales vary considerably at similar critic scores, with a small number of high-sales outliers.
 
 These are descriptive findings from the presentation and should be interpreted within the dataset's historical coverage and the categories displayed in the report.
@@ -93,26 +93,21 @@ These are descriptive findings from the presentation and should be interpreted w
 ```text
 power-bi-video-game-sales-analytics/
 ├── README.md
-├── Final Power BI Capstone Project.pbix
+├── Power BI Capstone Project.pbix
 ├── Power BI Capstone Project Presentation.pptx
 ├── docs/
-│   ├── project-summary.md
-│   └── resume-entry.md
+│   └── project-summary.md
 └── screenshots/
-    └── Add dashboard screenshots here
+    ├── 01-executive-overview.png
+    ├── 02-regional-analysis.png
+    ├── 03-data-model.png
+    ├── 04-power-query-1.png
+    └── 05-power-query-2.png
 ```
 
 ## How to explore
 
 1. Download the `.pbix` file from this repository.
 2. Open it using Power BI Desktop.
-3. Use the slicers to explore different years, platforms, genres, and regions.
-4. Review the presentation for the business context, data preparation, model design, findings, and limitations.
-
-## Future improvements
-
-- Add screenshots of both report pages to this repository.
-- Document important DAX measures and model relationships.
-- Add a reproducible data-cleaning or refresh workflow where source-data permissions allow.
-- Extend the analysis with newer data and reliable revenue/profit measures.
-- Explore statistical modelling of sales drivers as a separate future project.
+3. Use the slicers to explore different years, platforms, genres and regions.
+4. Review the presentation for the business context, data preparation, model design, findings and limitations.
