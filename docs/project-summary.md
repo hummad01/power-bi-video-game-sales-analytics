@@ -4,7 +4,7 @@
 Video Game Sales & Market Performance Analytics
 
 ## Business question
-How can historical video game sales and ratings data be transformed into meaningful insights to identify market leaders, understand regional differences, and explore factors associated with commercial success?
+How can historical video game sales and ratings data be transformed into meaningful insights to identify market leaders, understand regional differences and explore factors associated with commercial success?
 
 ## Workflow
 1. Imported the Kaggle Video Game Sales with Ratings dataset into Power BI.
